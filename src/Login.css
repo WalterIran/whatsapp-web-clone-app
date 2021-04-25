@@ -1,0 +1,70 @@
+.login{
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+}
+
+.login-background-bar{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 200px;
+    width: 100%;
+    background-color: #00BFA5;
+    z-index: 0;
+}
+
+.login-content{
+    position: absolute;
+    width: 70%;
+    height: 80%;
+    min-height: 600px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26),0 2px 10px 0 rgba(0,0,0,.16);
+    top: 90px;
+    left: 15%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-header{
+    position: absolute;
+    top: -60px;
+    display: flex;
+    height: 40px;
+}
+
+.login-header > h1{
+    margin-left: 10px;
+    font-size: 14px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.login-instructions{
+    height: 100%;
+    flex: 1;
+    padding: 20px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-instructions > h2{
+    margin-bottom: 20px;
+}
+
+.login-section{
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-section > .MuiButtonBase-root{
+    width: 50%;
+}
