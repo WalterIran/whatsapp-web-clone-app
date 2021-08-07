@@ -49,6 +49,10 @@
     grid-column: 2;
     grid-row: 1;
     font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .chatSample_lastMessage{
@@ -73,11 +77,10 @@
 .qty_pending{
     text-align: center;
     font-size: 12px;
-    height:20px;
-    min-width: 18px;
     background-color: #06D755;
     border-radius: 100%;
-    padding: 3.6px 4.8px;
+    padding: 2.5px 4.8px;
     color: #fff;
     font-weight: 600;
+    height: fit-content;
 }
